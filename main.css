@@ -1,0 +1,97 @@
+/**
+--blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+**/
+body {
+    background-color: #dfe1f5;
+    color: #3d2c08;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+    font-size: 8rem;
+}
+
+#grid-setting .row {
+    margin-right: -45px;
+}
+
+label {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 50px;
+}
+
+.btn {
+    height: 40px;
+}
+
+.btn-pam {
+    color: white;
+    background-color: #3d2c08;
+    border-color: #3d2c08;
+}
+
+.btn-pam-reverse {
+    color: #3d2c08;
+    background: #f8f9fa;
+    border-color: #3d2c08;
+    font-weight: bold;
+}
+
+.color {
+    width: 100px;
+    height: 40px;
+    border: 2px solid #141313;
+}
+
+.colorPicker {
+    font-weight: bold;
+}
+
+#canvas h3 {
+    font-family: 'Fruktur', cursive;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.table-bordered {
+    box-shadow: 2px 4px 10px rgb(105, 103, 103);
+}
+
+.table-bordered tr, .table-bordered td {
+    border: 1px solid #3d2c08;
+}
+
+tr {
+    height: 40px;
+    background-color: white;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+}
+
+/* .reset::before {
+    font-family: 'Font Awesome 5 Solid'; content: '\f2f1';
+} */
