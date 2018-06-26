@@ -9,35 +9,38 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
         <!-- Custome CSS -->
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="css/main.css">
 
         <!-- Custom Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Fruktur|Geostar+Fill|Monoton|Open+Sans+Condensed:300|PT+Sans+Narrow" rel="stylesheet">
-
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
         <title>Pixel Art</title>
     </head>
     <body>
         <div class="container-fluid pt-5">
             <section id="heading" class="mt-5 mb-5 d-flex justify-content-center">
-                <div class="row text-uppercase text-center"><h1>pixel art marker</h1></div>
+                <div class="row text-uppercase text-center">
+                    <h1>pixel art marker</h1>
+                </div>
             </section>
 
             <section id="grid-setting" class="mb-3 d-flex justify-content-center">
                 <div class="row">
                     <div class="form-group row">
-                        <label for="height" class="col-form-label"><h3>Grid Height</h3></label>
+                        <label for="height" class="col-form-label">
+                            <h3>Grid Height</h3>
+                        </label>
                         <div class="col-6">
-                            <input type="number" name="" id="height" placeholder="" class="form-control">
+                            <input type="number" id="height" class="form-control">
                         </div>
                     </div>
 
                     <div class="form-group row">
-                        <label for="width" class="col-form-label"><h3>Grid Width</h3></label>
+                        <label for="width" class="col-form-label">
+                            <h3>Grid Width</h3>
+                        </label>
                         <div class="col-6">
-                            <input type="number" name="" id="width" placeholder="" class="form-control">
+                            <input type="number" id="width" class="form-control">
                         </div>
                     </div>
 
@@ -49,7 +52,9 @@
 
             <section id="color-setting" class="mb-3 d-flex justify-content-center">
                 <div class="form-group row">
-                    <label for="color" class="col-form-label mr-2 colorPicker"><h3>Pick a color</h3></label>
+                    <label for="color" class="col-form-label mr-2 colorPicker">
+                        <h3>Pick a color</h3>
+                    </label>
                     <input type="color" id="selectedColor" class="color form-control">
                 </div>
             </section>
@@ -59,7 +64,7 @@
                     <div class="col-12">
                         <h3 class="mb-3 text-center">Design Canvas</h3>
                     </div>
-                    <div class="col-12 d-flex justify-content-center">
+                    <div id="table-grid" class="col-12 d-flex justify-content-center">
                         <table class="table-bordered">
                             <tbody class="grid-canvas"></tbody>
                         </table>
@@ -68,14 +73,10 @@
             </section>
         </div>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <!-- jQuery CDN link -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
         <!-- Custome Javascript -->
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

@@ -6,12 +6,11 @@ function selectedColor() {
 
 // Fill function
 function fillBox(element) {
-    // let selectedColor = 'orange';
     $(element).css('background-color', selectedColor());
 }
 
 $(document).ready(function() {
-    // Create the grid canvas for art
+    // Create the art canvas
     function makeGrid() {
         let numOfRow = 0; let numOfCol = 0;
 
@@ -25,7 +24,6 @@ $(document).ready(function() {
                 let row = $('<tr id=\'' + i + '\'></tr>');
                 
                 for (col = 1; col <= numOfCol; col++) {
-                    // row.append('<td id=\'' + i + '-' + col + '\'></td>');
                     row.append('<td onclick="fillBox(this)" id=\'r' + i + 'c' + + col + '\'></td>');
                 }
 
@@ -41,4 +39,4 @@ $(document).ready(function() {
         let tr = $('tbody').children('tr');
         tr.remove();
     });
-})
+});
